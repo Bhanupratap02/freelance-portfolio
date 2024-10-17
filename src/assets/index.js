@@ -1,3 +1,5 @@
+/** @format */
+
 import brainwave from "./brainwave.svg";
 import check from "./check.svg";
 import brainwaveSymbol from "./brainwave-symbol.svg";
@@ -24,6 +26,7 @@ import background from "./background.jpg";
 import curve from "./hero/curve.png";
 import robot from "./hero/robot.jpg";
 import heroBackground from "./hero/hero-background.jpg";
+import HeroImg from "./hero-img.png";
 
 import curve1 from "./collaboration/curve-1.svg";
 import curve2 from "./collaboration/curve-2.svg";
@@ -39,7 +42,7 @@ import slack from "./collaboration/slack.png";
 import service1 from "./services/service-1.png";
 import service2 from "./services/service-2.png";
 import service3 from "./services/service-3.png";
-
+import About from "./about.png"
 import lines from "./pricing/lines.svg";
 import stars from "./pricing/stars.svg";
 
@@ -74,7 +77,8 @@ import facebook from "./socials/facebook.svg";
 import instagram from "./socials/instagram.svg";
 import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
-
+import Pattern from "./pattern.png";
+import gradient2 from "./gradient2.jpg"
 export {
   brainwave,
   check,
@@ -144,4 +148,8 @@ export {
   instagram,
   telegram,
   twitter,
+  HeroImg,
+  Pattern,
+  gradient2,
+  About
 };

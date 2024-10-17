@@ -39,38 +39,100 @@ import {
 export const navigation = [
   {
     id: "0",
-    title: "Features",
-    url: "#features",
+    title: "Services",
+    url: "/#services",
   },
   {
     id: "1",
-    title: "Pricing",
-    url: "#pricing",
+    title: "Our Work",
+    url: "/#our-work",
   },
   {
     id: "2",
-    title: "How to use",
-    url: "#how-to-use",
+    title: "Why Us",
+    url: "/#why-us",
   },
   {
     id: "3",
-    title: "Roadmap",
-    url: "#roadmap",
+    title: "Blogs",
+    url: "/#blogs",
   },
   {
     id: "4",
-    title: "New account",
-    url: "#signup",
+    title: "Contact Us",
+    url: "#contact-us",
     onlyMobile: true,
+  },
+  // {
+  //   id: "5",
+  //   title: "Sign in",
+  //   url: "#login",
+  //   onlyMobile: true,
+  // },
+];
+export const OurLinks = [
+  {
+    id: "0",
+    title: "Home",
+    url: "/",
   },
   {
-    id: "5",
-    title: "Sign in",
-    url: "#login",
-    onlyMobile: true,
+    id: "1",
+    title: "About us",
+    url: "/#why-us",
   },
-];
+  {
+    id: "2",
+    title: "Our Work",
+    url: "/#our-work",
+  },
+  {
+    id: "3",
+    title: "Contact Us",
+    url: "/contact",
+ 
+  },
+  {
+    id: "4",
+    title: "Blogs",
+    url: "/#blogs",
+  },
 
+  // {
+  //   id: "5",
+  //   title: "Sign in",
+  //   url: "#login",
+  //   onlyMobile: true,
+  // },
+];
+export const OtherLinks = [
+  {
+    id: "0",
+    title: "FAQ",
+    url: "/FAQ",
+  },
+  {
+    id: "1",
+    title: "Privacy Policy",
+    url: "/privacy-policy",
+  },
+  {
+    id: "2",
+    title: "Cookies Policy",
+    url: "/privacy-policy",
+  },
+  {
+    id: "3",
+    title: "Terms & Conditions",
+    url: "/terms&conditions",
+  },
+  {
+    id: "4",
+    title: "Support",
+    url: "/contact",
+  },
+
+];
 export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
 
 export const notificationImages = [notification4, notification3, notification2];
@@ -78,9 +140,9 @@ export const notificationImages = [notification4, notification3, notification2];
 export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
 
 export const brainwaveServices = [
-  "Photo generating",
-  "Photo enhance",
-  "Seamless Integration",
+  "Experienced team of professionals with deep expertise in various technologies.",
+  "Commitment to delivering scalable and future-proof solutions.",
+  "Strong focus on innovation and continuous improvement.",
 ];
 
 export const brainwaveServicesIcons = [
@@ -133,16 +195,28 @@ export const collabText =
 export const collabContent = [
   {
     id: "0",
-    title: "Seamless Integration",
-    text: collabText,
+    title: "Strategic Planning",
+    text: "Understanding your vision, challenges, and goals through a collaborative approach.",
   },
   {
     id: "1",
-    title: "Smart Automation",
+    title: "Design & Development",
+    text: "Building visually appealing and technically robust solutions that align with your brand.",
   },
   {
     id: "2",
-    title: "Top-notch Security",
+    title: "Testing & Quality Assurance",
+    text: "Ensuring flawless performance through comprehensive testing and feedback loops.",
+  },
+  {
+    id: "3",
+    title: "Launch & Deployment",
+    text: "Ensuring flawless performance through comprehensive testing and feedback loops.",
+  },
+  {
+    id: "4",
+    title: "Continuous Support & Optimization",
+    text: "Ensuring flawless performance through comprehensive testing and feedback loops.",
   },
 ];
 
@@ -244,16 +318,16 @@ export const pricing = [
 export const benefits = [
   {
     id: "0",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Web Development",
+    text: "Build high-performance websites tailored to your business needs, ensuring speed, scalability, and a seamless user experience.",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "1",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "Mobile App Development",
+    text: "Create intuitive and feature-rich mobile applications that engage your audience, enhancing accessibility across iOS and Android platforms.",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
@@ -261,37 +335,37 @@ export const benefits = [
   },
   {
     id: "2",
-    title: "Connect everywhere",
-    text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
+    title: "UI & UX Design",
+    text: "Design beautiful and user-centric interfaces that provide an exceptional experience, turning visitors into loyal customers.",
     backgroundUrl: "./src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
   },
-  {
-    id: "3",
-    title: "Fast responding",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
-    backgroundUrl: "./src/assets/benefits/card-4.svg",
-    iconUrl: benefitIcon4,
-    imageUrl: benefitImage2,
-    light: true,
-  },
-  {
-    id: "4",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
-    backgroundUrl: "./src/assets/benefits/card-5.svg",
-    iconUrl: benefitIcon1,
-    imageUrl: benefitImage2,
-  },
-  {
-    id: "5",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
-    backgroundUrl: "./src/assets/benefits/card-6.svg",
-    iconUrl: benefitIcon2,
-    imageUrl: benefitImage2,
-  },
+  // {
+  //   id: "3",
+  //   title: "Fast responding",
+  //   text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+  //   backgroundUrl: "./src/assets/benefits/card-4.svg",
+  //   iconUrl: benefitIcon4,
+  //   imageUrl: benefitImage2,
+  //   light: true,
+  // },
+  // {
+  //   id: "4",
+  //   title: "Ask anything",
+  //   text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+  //   backgroundUrl: "./src/assets/benefits/card-5.svg",
+  //   iconUrl: benefitIcon1,
+  //   imageUrl: benefitImage2,
+  // },
+  // {
+  //   id: "5",
+  //   title: "Improve everyday",
+  //   text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+  //   backgroundUrl: "./src/assets/benefits/card-6.svg",
+  //   iconUrl: benefitIcon2,
+  //   imageUrl: benefitImage2,
+  // },
 ];
 
 export const socials = [

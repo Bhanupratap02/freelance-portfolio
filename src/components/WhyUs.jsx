@@ -1,37 +1,45 @@
+/** @format */
+
 import Section from "./Section";
 import Heading from "./Heading";
-import { service1, service2, service3, check } from "../assets";
+import { service1, service2, service3, check, About } from "../assets";
 import { brainwaveServices, brainwaveServicesIcons } from "../constants";
-import { Gradient, PhotChatMessage, VideoBar, VideoChatMessage } from "./design/Services";
+import {
+  Gradient,
+  PhotChatMessage,
+  VideoBar,
+  VideoChatMessage,
+} from "./design/Services";
 
-import Generating from "./Generating";
-
-const Services = () => {
+const WhyUs = () => {
   return (
-    <Section id="how-to-use">
+    <Section id="why-us">
       <div className="container">
-        <Heading
-          title="Generative AI made for creators."
-          text="Brainwave unlocks the potential of AI-powered applications"
-        />
+        <Heading tag={"About Us"} title="Why You should Choose Us" />
 
         <div className="relative">
-          <div className="relative z-1 flex items-center h-[39rem] mb-5 p-8 border border-n-1/10 rounded-3xl overflow-hidden lg:p-20 xl:h-[46rem]">
+          <div className="relative z-1 flex items-center h-[39rem] mb-5 p-8  border-n-1/10 rounded-3xl overflow-hidden lg:p-20 xl:h-[46rem]">
             <div className="absolute top-0 left-0 w-full h-full pointer-events-none md:w-3/5 xl:w-auto">
               <img
-                className="w-full h-full object-cover md:object-right"
-                width={800}
-                alt="Smartest AI"
+                className=" h-full object-contain  opacity-10 xl:opacity-100 md:object-right  mix-blend-multiply"
+                width={700}
+                alt="Why Us?"
                 height={730}
-                src={service1}
+                src={About}
               />
             </div>
 
-            <div className="relative z-1 max-w-[17rem] ml-auto">
-              <h4 className="h4 mb-4">Smartest AI</h4>
-              <p className="body-2 mb-[3rem] text-n-3">
-                Brainwave unlocks the potential of AI-powered applications
+            <div className="relative z-2 max-w-[32rem] xl:ml-auto ">
+              <p className="body-2 mb-[3rem] text-n-1">
+                We are an innovative IT solutions provider, helping businesses
+                grow and streamline their operations with cutting-edge
+                technologies. Our team of experts is dedicated to delivering
+                tailored, efficient, and scalable solutions for businesses of
+                all sizes.With a focus on quality, transparency, and customer
+                satisfaction, we are committed to empowering your business to
+                achieve its full potential.
               </p>
+              <h4 className="h4 mb-4">Why Choose Us?</h4>
               <ul className="body-2">
                 {brainwaveServices.map((item, index) => (
                   <li
@@ -44,11 +52,19 @@ const Services = () => {
                 ))}
               </ul>
             </div>
-
-            <Generating className="absolute left-4 right-4 bottom-4 border-n-1/10 border lg:left-1/2 lg-right-auto lg:bottom-8 lg:-translate-x-1/2" />
           </div>
 
-          <div className="relative z-1 grid gap-5 lg:grid-cols-2">
+          <Gradient />
+        </div>
+      </div>
+    </Section>
+  );
+};
+
+export default WhyUs;
+
+{
+  /* <div className="relative z-1 grid gap-5 lg:grid-cols-2">
             <div className="relative min-h-[39rem] border border-n-1/10 rounded-3xl overflow-hidden">
               <div className="absolute inset-0">
                 <img
@@ -116,13 +132,5 @@ const Services = () => {
                 <VideoBar />
               </div>
             </div>
-          </div>
-
-          <Gradient />
-        </div>
-      </div>
-    </Section>
-  );
-};
-
-export default Services;
+          </div> */
+}

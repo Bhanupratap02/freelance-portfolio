@@ -37,6 +37,21 @@ export default {
           12: "#2E2A41",
           13: "#6C7275",
         },
+        black: {
+          DEFAULT: "#000",
+          100: "#010103",
+          200: "#0E0E10",
+          300: "#1C1C21",
+          500: "#3A3A49",
+          600: "#1A1A1A",
+        },
+        white: {
+          DEFAULT: "#FFFFFF",
+          800: "#E4E4E6",
+          700: "#D6D9E9",
+          600: "#AFB0B6",
+          500: "#62646C",
+        },
       },
       fontFamily: {
         sans: ["var(--font-sora)", ...fontFamily.sans],

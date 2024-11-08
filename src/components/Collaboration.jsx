@@ -11,7 +11,7 @@ const Collaboration = () => {
 
   return (
     <Section crosses >
-      <div className="container lg:flex">
+      <div className="container lg:flex ">
         
         <div className="max-w-[29rem]">
           <h2 className="h2 mb-4 md:mb-8 lg:mb-10  ">

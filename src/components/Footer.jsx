@@ -23,15 +23,16 @@ const Footer = () => {
         </div>
         {/* First Column: Company Logo and Description */}
         <div className="w-full md:w-1/2 lg:w-2/6 lg:mx-4 lg:pr-8">
-          <img
+          {/* <img
             src={brainwave}
             alt="Company Logo"
             className="w-38 h-auto mb-4"
-          />
+          /> */}
+          <h4 className="h4 font-bold text-n-1 font-code">Innovata</h4>
           <p className="body-2 text-n-4 mb-4 font-code">
-            At [Your Company Name], we provide world-class IT services tailored
-            to meet your business needs. Our expertise in web, mobile, and
-            software development ensures seamless digital experiences.
+            At Innovata, we provide world-class IT services tailored to meet
+            your business needs. Our expertise in web, mobile, and software
+            development ensures seamless digital experiences.
           </p>
         </div>
 
@@ -85,9 +86,11 @@ const Footer = () => {
             <li className="mt-2 font-code hover:text-n-1">
               <Link to="/cookies-policy">Cookies Policy</Link>
             </li>
-            <li className="mt-2 font-code hover:text-n-1">
-              <Link to="/terms&conditions">Terms & Conditions</Link>
-            </li>
+            <a href={"/terms&conditions"}>
+              <li className="mt-2 font-code hover:text-n-1">
+                Terms & Conditions
+              </li>
+            </a>
             <li className="mt-2 font-code hover:text-n-1">
               <Link to="/contact">Support</Link>
             </li>
@@ -104,9 +107,3 @@ const Footer = () => {
 };
 
 export default Footer;
-
-//  <li className="mt-2 font-code">Home</li>
-//              <li className="mt-2 font-code">About Us</li>
-//              <li className="mt-2 font-code">Our Work</li>
-//              <li className="mt-2 font-code">Contact Us</li>
-// <li className="mt-2 font-code">Blogs</li>

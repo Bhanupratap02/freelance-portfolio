@@ -6,7 +6,7 @@ import { roadmap } from "../constants";
 import { check2, grid, loading1 } from "../assets";
 import { Gradient } from "./design/Roadmap";
 
-const Roadmap = () => (
+const OurWork = () => (
   <Section className="overflow-hidden" id="our-work">
     <div className="container md:pb-10">
       <Heading tag="Ready to get started" title="What we’re working on" />
@@ -33,7 +33,7 @@ const Roadmap = () => (
                   />
                 </div>
                 <div className="relative z-1">
-                  <div className="flex items-center justify-between max-w-[27rem] mb-8 md:mb-20">
+                  {/* <div className="flex items-center justify-between max-w-[27rem] mb-8 md:mb-20">
                     <Tagline>{item.date}</Tagline>
 
                     <div className="flex items-center px-4 py-1 bg-n-1 rounded text-n-8">
@@ -46,7 +46,7 @@ const Roadmap = () => (
                       />
                       <div className="tagline">{status}</div>
                     </div>
-                  </div>
+                  </div> */}
 
                   <div className="mb-10 -my-10 -mx-15">
                     <img
@@ -68,11 +68,11 @@ const Roadmap = () => (
         <Gradient />
       </div>
 
-      <div className="flex justify-center mt-12 md:mt-15 xl:mt-20">
+      {/* <div className="flex justify-center mt-12 md:mt-15 xl:mt-20">
         <Button href="/roadmap">Our roadmap</Button>
-      </div>
+      </div> */}
     </div>
   </Section>
 );
 
-export default Roadmap;
+export default OurWork;

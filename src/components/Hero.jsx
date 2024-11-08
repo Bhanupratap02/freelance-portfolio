@@ -45,7 +45,7 @@ const Hero = () => {
             </span>
           </h1>
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
-            Elevate your business with Brainwave. From IT services to innovative
+            Elevate your business with Innovata. From IT services to innovative
             solutions, we ensure seamless tech integration for scaling and
             thriving in the digital age.
           </p>

@@ -19,7 +19,7 @@ const WhyUs = () => {
 
         <div className="relative">
           <div className="relative z-1 flex items-center h-[39rem] mb-5 p-8  border-n-1/10 rounded-3xl overflow-hidden lg:p-20 xl:h-[46rem]">
-            <div className="absolute top-0 left-0 w-full h-full pointer-events-none md:w-3/5 xl:w-auto">
+            <div className="absolute top-0 -left-7 w-full h-full pointer-events-none md:w-3/5 xl:w-auto">
               <img
                 className=" h-full object-contain  opacity-10 xl:opacity-100 md:object-right  mix-blend-multiply"
                 width={700}
@@ -30,7 +30,7 @@ const WhyUs = () => {
             </div>
 
             <div className="relative z-2 max-w-[32rem] xl:ml-auto ">
-              <p className="body-2 mb-[3rem] text-n-1">
+              <p className="body-2 mb-[3rem] text-n-1 text-[1.1rem]">
                 We are an innovative IT solutions provider, helping businesses
                 grow and streamline their operations with cutting-edge
                 technologies. Our team of experts is dedicated to delivering
